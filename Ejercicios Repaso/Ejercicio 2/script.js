@@ -15,6 +15,8 @@ alert("Elemento nº "+ newnumber +"  =  "+  numbers[newnumber]);
 newnumber = Math.floor(Math.random() * 100);
 alert("Elemento nº "+ newnumber +"  =  "+  numbers[newnumber]);
 
+console.table(numbers);
+
 document.getElementById('btn').addEventListener('click', () => {
     document.getElementById('greeting').textContent = 'You clicked!';
 });
